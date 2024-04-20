@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run File",
+      "type": "shell",
+      "command": "ts-node",
+      "args": [
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
